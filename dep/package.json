@@ -1,0 +1,19 @@
+{
+  "name": "dep",
+  "version": "1.0.0",
+  "main": "build/index",
+  "types": "build/index",
+  "private": true,
+  "files": [
+    "build"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "clean": "rm -rf build",
+    "compile-type": "tsc -b",
+    "transpile": "swc ./src -d build -D",
+    "compile": "pnpm compile-type && pnpm transpile",
+    "recompile": "pnpm clean && pnpm compile"
+  }
+}

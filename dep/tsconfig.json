@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": "src",
+    "composite": true,
+    "outDir": "build",
+    "target": "esnext",
+    "tsBuildInfoFile": "./build/tsconfig.tsbuildinfo",
+    "paths": {
+      "@": ["."],
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
