@@ -7,8 +7,9 @@
   "files": [
     "build"
   ],
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "@swc/helpers": "^0.5.3"
+  },
   "scripts": {
     "clean": "rm -rf build",
     "compile-type": "tsc -b",

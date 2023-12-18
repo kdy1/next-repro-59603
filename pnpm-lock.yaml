@@ -18,7 +18,11 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  dep: {}
+  dep:
+    dependencies:
+      '@swc/helpers':
+        specifier: ^0.5.3
+        version: 0.5.3
 
   myapp:
     dependencies:
@@ -306,6 +310,12 @@ packages:
 
   /@swc/helpers@0.5.2:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /@swc/helpers@0.5.3:
+    resolution: {integrity: sha512-FaruWX6KdudYloq1AHD/4nU+UsMTdNE8CKyrseXWEcgjDAbvkwJg2QGPAnfIJLIWsjZOSPLOAykK6fuYp4vp4A==}
     dependencies:
       tslib: 2.6.2
     dev: false

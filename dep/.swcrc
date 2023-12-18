@@ -11,17 +11,16 @@
       "decoratorVersion": "2022-03",
       "react": {
         "runtime": "automatic"
-      }
+      },
     },
-    "target": "es2022",
+    "target": "es5",
     "baseUrl": "src",
     "paths": {
       "@": ["."],
       "@/*": ["*"]
-    }
+    },
+    "externalHelpers": true
   },
   "sourceMaps": "inline",
-  "module": {
-    "type": "commonjs"
-  }
+  
 }
